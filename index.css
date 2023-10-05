@@ -124,6 +124,31 @@ body{
 
   
 
+@media (max-width: 420px){
+
+    .search{
+        justify-content: center;
+    }
+    .search button{
+        padding: 20px;
+
+    }
+    
+    .details{
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .humidity, .wind{
+        font-size: 22px;
+    }
+
+    .p{
+        font-size: 16px;
+        margin-top: 1px;
+    }
+}
+
 @media (max-width: 390px){
 
     .search{
